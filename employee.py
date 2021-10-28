@@ -132,6 +132,14 @@ class employeeclass:
         self.employeetable.heading("post",text="POST")
         
         self.employeetable["show"]="headings"
+        
+        //additional file//
+        def __init__(self,root):
+        self.root=root
+        self.root.geometry("1350x700+0+0")
+        self.root.title("Inventory management system | Developed by SUYASH KHANTWAL")
+        self.root.config(bg="white")
+
 
 
         
