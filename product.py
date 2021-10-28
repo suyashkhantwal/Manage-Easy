@@ -10,6 +10,13 @@ class productClass:
         self.root.title("Inventory management system | Developed by SUYASH KHANTWAL")
         self.root.config(bg="white")
         self.root.focus_force()
+    //////////////////////////////////////
+        //Extra code by Preet
+    if __name__=="__main__":
+    root=Tk()
+    obj=employeeclass(root)
+    root.mainloop()
+    ////////////////////////////////
 
 #########==========================================
         self.var_searchby=StringVar()
